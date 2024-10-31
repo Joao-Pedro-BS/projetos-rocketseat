@@ -2,6 +2,7 @@
 const form = document.querySelector("form")
 const list = document.querySelector("#list")
 const inputPrincipal = document.querySelector("#itemList")
+const alert = document.querySelector("#alert")
 
 // funcao pra filtrar o campo
 inputPrincipal.addEventListener("input", () => {
@@ -34,5 +35,15 @@ form.addEventListener("submit", (event) => {
     
     deleteItem.addEventListener("click", () => {
         list.removeChild(newItem)
+        notification()
     })
 })
+
+// função da notificação
+function notification(){
+    // adiciona a notificacao
+    alert.style.display = "flex"
+    // referencia o icon de fechar a notificacao
+    const closeNotification = document.querySelector("#close-notification")
+    closeNotification.onclick = () => {alert.style.display = "none"}
+}
