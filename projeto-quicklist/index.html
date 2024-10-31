@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickList</title>
+  </head>
+  <body>
+    
+    <img src="assets/images/logo.svg" alt="quicklist logo" />
+    
+    <main>
+      <div id="title">
+        <span><img src="assets/images/left-arrow.svg" alt="left arrow icon">Voltar</span>
+        <h1>Compras da Semana</h1>
+      </div>
+
+      <form>
+        <input type="text" id="itemList" required placeholder="Adicione um novo item" />
+        <button>Adicionar item</button>
+      </form>
+
+      <div id="list">
+      </div>
+
+      <div id="alert">
+        <img src="assets/images/warning-icon.svg" alt="icone de alerta">
+        <p>O item foi removido da lista</p>
+        <img src="assets/images/delete-small-icon.svg" alt="icone de fechar a mensagem">
+      </div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>

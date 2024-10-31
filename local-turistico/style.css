@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+body{
+    background-color: #F5F4F0;
+}
+
+#container{
+    width: 1120px;
+    margin: 88px auto;
+}
+
+#main-content{
+    margin-bottom: 40px;
+}
+
+#main-content p:nth-of-type(1){
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #E1624F;
+    font-size: 16px;
+}
+
+#main-content h1{
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #1B1B1B;
+    font-size: 36px;
+}
+
+#main-content img{
+    border-radius: 28px;
+    margin-bottom: 24px;
+}
+
+#main-content p:nth-of-type(2){
+    font-style: italic;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+}
+
+#about p:nth-of-type(1){
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #E1624F;
+    font-size: 16px;
+}
+
+#about h2{
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1B1B1B;
+    font-size: 32px;
+}
+
+#about p:nth-of-type(2){
+    margin-bottom: 64px;
+    color: #333333;
+    font-size: 16px;
+}
+
+#Haedong{
+    margin-bottom: 48px;
+} 
+
+#Haedong img{
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+
+#Haedong h3{
+    font-weight: bold;
+    color: #1B1B1B;
+    font-size: 28px;
+}
+
+#Haedong p:nth-of-type(1){
+    color: #333333;
+    font-size: 16px;
+}
+
+#Haedong p:nth-of-type(2){
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+}
+
+#Haedong ul{
+    padding-left: 25px;
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+#Beomeo-sa{
+    margin-bottom: 48px;
+}
+
+#Beomeo-sa img{
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+
+#Beomeo-sa h3{
+    font-weight: bold;
+    color: #1B1B1B;
+    font-size: 28px;    
+}
+
+#Beomeo-sa p:nth-of-type(1){
+    color: #333333;
+    font-size: 16px;
+}
+
+#Beomeo-sa p:nth-of-type(2){
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+}
+
+#Beomeo-sa ul{
+    padding-left: 25px;
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+#Yongdusan{
+    margin-bottom: 48px;
+}
+
+#Yongdusan img{
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+
+#Yongdusan h3{
+    font-weight: bold;
+    color: #1B1B1B;
+    font-size: 28px;    
+}
+
+#Yongdusan p:nth-of-type(1){
+    color: #333333;
+    font-size: 16px;
+}
+
+#Yongdusan p:nth-of-type(2){
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+}
+
+#Yongdusan ul{
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+#Yongdusan li:nth-child(1){
+    color: #591B98;
+}
+
+#Yongdusan li:nth-child(2){
+    color: #E5245E;
+}
+
+#Yongdusan li:nth-child(3){
+    color: #E95E10;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer a{
+    color: #333333;
+    text-decoration: double;
+}
